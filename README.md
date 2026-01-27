@@ -85,7 +85,7 @@ streamlit run app/main.py
 
 ### 머신러닝
 
-- Scikit-learn (RandomForest, LogisticRegression, DecisionTree)
+- Scikit-learn (RandomForest, LogisticRegression, DecisionTree, LightGBM)
 - GroupKFold 교차검증
 - Pickle (모델 저장/로드)
 
