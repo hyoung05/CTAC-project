@@ -1,0 +1,13 @@
+# Core
+streamlit>=1.53.0
+openai>=2.15.0
+python-dotenv>=1.0.0
+
+# ML
+lightgbm>=4.6.0
+scikit-learn>=1.8.0
+pandas>=2.3.3
+numpy>=2.4.0
+
+# Database
+# sqlite3는 Python 기본 라이브러리라 설치 불필요
