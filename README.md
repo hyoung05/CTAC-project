@@ -96,6 +96,18 @@ CTAC-project/
 pip install -r requirements.txt
 ```
 
+## 데이터 다운로드
+
+학습된 모델과 DB 파일은 용량 문제로 GitHub에 포함되지 않습니다.
+
+[Google Drive에서 다운로드](https://drive.google.com/drive/folders/13JETZMYN0LtMlEu9A9ySjfvTrDP8bRq4?usp=drive_link)
+
+다운로드 후 `app` 폴더 내부에 `data` 폴더 생성 후 아래 파일을 배치하세요:
+
+- `benign_domains.db`
+- `phishing_domains.db`
+- `phishing_LightGBM.pkl`
+
 ## 환경 설정
 
 프로젝트 루트에 `.env` 파일 생성:
@@ -134,15 +146,3 @@ streamlit run app/main.py
 - LightGBM, Scikit-learn
 - SQLite
 - python-dotenv
-
-## 데이터 다운로드
-
-학습된 모델과 DB 파일은 용량 문제로 GitHub에 포함되지 않습니다.
-
-[Google Drive에서 다운로드](https://drive.google.com/drive/folders/13JETZMYN0LtMlEu9A9ySjfvTrDP8bRq4?usp=drive_link)
-
-다운로드 후 `app` 폴더 내부에 `data` 폴더 생성 후 아래 파일을 배치하세요:
-
-- `benign_domains.db`
-- `phishing_domains.db`
-- `phishing_LightGBM.pkl`
